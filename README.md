@@ -1,1 +1,1 @@
-# art-websitr
+# art-website
