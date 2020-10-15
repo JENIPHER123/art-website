@@ -1,0 +1,279 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.cont1{
+    background: url('images/front4.jpg');
+    min-height: 100vh;
+    height:fit-content;
+
+}
+.navi{
+    padding-top: 25px;
+    
+}
+.navi ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+   margin-right: 6em;
+    
+}
+.navi ul li a{
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+   
+    
+}
+
+
+.cont1 h1{
+    color: white;
+    font-size: 7em;
+    text-align: center;
+    padding-top: 1em;
+    font-family: cursive;
+    
+}
+
+#name1{
+    color: rgb(199, 9, 9);
+}
+#name2:hover{
+    color: rgb(108, 204, 18);
+}
+#name3:hover{
+    color: rgb(103, 18, 214);
+}
+#name4:hover{
+    color: rgb(231, 20, 150);
+}
+#name5:hover{
+    color: rgb(14, 164, 223);
+}
+
+
+/* the second compartment code*/
+.row{
+    width: 100%;
+}
+.aboutus{
+    padding: 12px;
+    margin-top: 5em;
+}
+.one h2{
+    font-family: cursive;
+    text-align: center;
+
+}
+.two{
+    padding-bottom: 1em;
+    font-size: 1em;
+    color: brown;
+}
+#founders{
+    margin-left:20% ;
+    width: 25em;
+    height: 20em;
+    margin-top: 12%;
+    border-radius: 30px;
+}
+/*the third compartment*/
+
+.statistics{
+    height: 10em;
+    background: url('images/img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25em;
+    background-position: center;
+    margin-top: 4em;
+    
+    margin-bottom: 5em;
+}
+
+
+.statistics .row .col-sm-3 h2{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    
+}
+.statistics .row .col-sm-3 .first{
+    text-align: center;
+    font-size: 5em;
+   color: white;
+   font-family: cursive;
+
+}
+.statistics .conn {
+    background: rgb(0, 0, 0,.7);
+   background-position: center;
+   height: 25em;
+}
+.sayp{
+    color:rgb(7, 7, 7);
+}
+
+
+/*the fourth compartment*/
+.portfolio .row{
+    
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.front,.back{
+    position: absolute;
+    height: 16em;
+    width: 17em;
+    margin-top: 8em;
+    margin-bottom: 5em;
+    margin-left: 9px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    transition: transform .8s linear;
+    cursor: pointer;
+    
+    
+    
+    
+}
+.front{
+    transform: perspective(800px) rotateY(180deg);
+    ;
+}
+.back{
+    transform: perspective(800px) rotateY(0deg);
+}
+.set:hover >.front{
+    transform: perspective(800px) rotateY(0deg);
+}
+.set:hover >.back{
+    transform: perspective(800px) rotateY(-180deg);
+}
+.front img{
+    height:16em ;
+}
+.portfolio{
+    text-align: center;
+    font-family: cursive;
+    padding-top: 55px;
+    padding-bottom: 85px;
+    
+}
+.back{
+ 
+ text-align: center;
+ 
+}
+.back ul{
+    list-style-type: none;
+    display:flex;
+    
+}
+.back ul li{
+    margin: 16px;
+}
+#one1{
+ background: url('images/img9.jpg');
+}
+#one2{
+    background: url('images/img8.jpg');
+   }
+#one3{
+    background: url('images/img2.jpg');
+   }
+   
+#one4{
+    background: url('images/img1.jpg');
+   }
+#one1, #one2, #one3, #one4{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+}
+.back .con {
+    background: rgba(78, 72, 72, 0.75);
+    background-size: cover;
+   padding-top: 5em;
+    height: 16em;
+    
+}
+#sad{
+    color: black;
+    position: absolute;
+    align-content: center;
+    background: rgba(219, 210, 210, 0.75);
+    background-size: cover;
+   padding-top: 5em;
+    height: 16em;
+    width: 17em;
+
+}
+.front #sad h4{
+    text-align: center;
+    align-content: center;
+    
+}
+#sad ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*the footer*/
+.stand{
+    position: absolute;
+    margin-top: 28em;
+    background:rgb(61, 60, 60);
+    background-position: bottom;
+   min-height: 17em;
+    background-size: cover;
+    color: white;
+    width: 90%;
+    margin-left: 12px;
+   left: 3em;
+   height: fit-content;
+   padding-left: 82px;
+   margin-bottom: 2em;
+   padding-right: 82px;
+   padding-top: 2em;
+   
+}
+.stand .row .col-sm-5 ul,.stand .row .col-sm-3 ul,.stand .row .col-sm-4 ul{
+    color: wheat;
+    list-style-type: none;
+    font-size: 12px;
+   
+}
+.stand .row {
+    margin-left: 8em;
+   
+}
+.stand .row .col-sm-4 ul li a,.stand .row .col-sm-5 ul li a{
+    color: white;
+    
+}
+.wiss{
+    display: flex;
+}
+.wiss  li{
+    margin: 9px;
+    font-size: 17px;
+}
+
+/*the button*/
+button{
+    width: 20em;
+    padding: 32px;
+    align-content: center;
+
+}
